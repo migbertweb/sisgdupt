@@ -1,0 +1,18 @@
+Bienvenidos
+
+El Sistema de Gestion de Documentos de la UPT Bolivar es una aplicacion para la gestion eficiente de los documentos requeridos por la poblacion estudiantil y docente de la institucion
+
+Para el Correcto funcionamiento de SGD-UPT Bolivar se debe contar con:
+- Servidor WEB con PHP.
+- Servidor de Base de Datos MySql.
+- Navegador Web (Mozilla Firefox Recomendado).
+- Visor de Archivos PDF.
+
+Para instalar el sistema debe realizar lo siguiente:
+- Copiar la carpeta con los archivos del sistema al servidor Web.
+- tener a mano los Datos de conexion con la base de datos (Host, Usuario y Clave de MySql).
+- Haber dado permiso de escritura a la carpeta 'funcs' del sistema copiado al servidor.
+- en el Navegador Web ir a la direccion de host del servidor web
+- seguir los pasos que el sistema le dara
+
+Si cumple con estos pasos al finalizar tendra instalado y funcionando su Sistema
