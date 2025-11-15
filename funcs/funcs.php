@@ -1,4 +1,27 @@
 <?php
+/**
+ * Archivo: funcs/funcs.php
+ * 
+ * Descripción: Contiene todas las funciones auxiliares del sistema incluyendo:
+ * validación de datos, autenticación de usuarios, gestión de sesiones, envío
+ * de emails, generación de tokens, hash de contraseñas, y funciones de utilidad
+ * para mostrar mensajes de error y éxito.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Librería de funciones reutilizables utilizadas en todo el sistema
+ * para operaciones comunes como validación, autenticación y utilidades.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 setlocale(LC_ALL, 'es_ES.UTF-8');
 date_default_timezone_set('America/Caracas');
 function minMax($min, $max, $valor)

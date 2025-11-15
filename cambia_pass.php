@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: cambia_pass.php
+ * 
+ * Descripción: Formulario para cambiar la contraseña de un usuario mediante
+ * un token de recuperación. Verifica el token y permite establecer una nueva
+ * contraseña. Usado en el proceso de recuperación de contraseña.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página accesible mediante enlace con token para restablecer contraseñas
+ * olvidadas o expiradas.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionsi.php';
 if (empty($_GET['user_id'])) {
     header('Location: index.php');

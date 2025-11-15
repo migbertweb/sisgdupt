@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: ayuda.php
+ * 
+ * Descripción: Página de ayuda y guía de usuario del sistema. Proporciona
+ * documentación e instrucciones sobre cómo usar las funcionalidades del sistema.
+ * Actualmente en construcción.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página de ayuda accesible desde el menú de navegación que proporciona
+ * documentación y guías de uso del sistema.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 // añadir codigo php aqui
 include 'head.php';

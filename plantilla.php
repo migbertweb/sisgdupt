@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: plantilla.php
+ * 
+ * Descripción: Página plantilla o template para desarrollo futuro. Actualmente
+ * muestra una página en construcción. Puede ser utilizada como base para crear
+ * nuevas páginas del sistema.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Template o plantilla base para crear nuevas páginas del sistema
+ * manteniendo la estructura y componentes comunes.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 // añadir codigo php aqui
 include 'head.php';

@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: buscar.php
+ * 
+ * Descripción: Script AJAX que procesa las búsquedas de estudiantes. Recibe
+ * el término de búsqueda, aplica filtros anti-XSS, realiza consultas a la base
+ * de datos y devuelve los resultados en formato HTML para ser mostrados.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Procesa las solicitudes de búsqueda desde buscaralumno.php y devuelve
+ * los resultados de estudiantes que coincidan con el criterio de búsqueda.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 // añadir codigo php aqui
 // //Variable de búsqueda

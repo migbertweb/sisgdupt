@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: pensum.php
+ * 
+ * Descripción: Página para visualizar y acceder a los documentos PDF de pensum
+ * de estudio y carga horaria de los diferentes Programas Nacionales de Formación (PNF).
+ * Incluye un modal de confirmación antes de mostrar los documentos.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Permite a los usuarios acceder a los documentos académicos oficiales
+ * de los diferentes programas de estudio de la universidad.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 session_start();
 require 'funcs/conexion.php';
 require 'funcs/funcs.php';

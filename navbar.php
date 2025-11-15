@@ -1,3 +1,27 @@
+<?php
+/**
+ * Archivo: navbar.php
+ * 
+ * Descripción: Barra de navegación principal del sistema. Incluye el menú
+ * de navegación con acceso a las diferentes funcionalidades, menú desplegable
+ * de ayuda, y perfil de usuario con opciones de gestión de cuenta y cierre
+ * de sesión. Muestra opciones adicionales para administradores.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Componente de navegación incluido en todas las páginas autenticadas
+ * del sistema para proporcionar acceso rápido a las funcionalidades.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+?>
 <nav class="mb-4 navbar navbar-expand-lg navbar-light"><div class="container">
     
     <button class="navbar-toggler" type="button" data-toggle="collapse"

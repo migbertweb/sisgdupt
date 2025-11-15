@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: mostrarregistros.php
+ * 
+ * Descripción: Muestra todos los registros de estudiantes en una tabla interactiva
+ * usando DataTables. Permite búsqueda, ordenamiento y paginación. Los administradores
+ * pueden modificar y eliminar registros directamente desde esta vista.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Vista principal para consultar todos los estudiantes registrados en el
+ * sistema con funcionalidades avanzadas de búsqueda y gestión.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 require 'sessionno.php';
 $errors = array();
 $events = array();

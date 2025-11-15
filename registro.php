@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: registro.php
+ * 
+ * Descripción: Página de registro de nuevos usuarios del sistema. Permite crear
+ * cuentas de usuario con validación de campos y verificación de usuarios existentes.
+ * Los nuevos usuarios se registran como usuarios regulares (tipo 2).
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Permite a nuevos usuarios crear una cuenta en el sistema para acceder
+ * a las funcionalidades de gestión de documentos.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionsi.php';
 // añadir codigo php aqui
 $errors = array();

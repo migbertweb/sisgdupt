@@ -1,4 +1,25 @@
 <?php
+/**
+ * Archivo: modificar-perfil.php
+ * 
+ * Descripción: Formulario para modificar el perfil de un usuario del sistema.
+ * Permite cambiar nombre, usuario y tipo de usuario. Solo accesible para
+ * administradores. Muestra la última conexión del usuario.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Interfaz de administración para editar información de usuarios del sistema.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 $errors = array();
 $events = array();

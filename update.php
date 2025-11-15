@@ -1,5 +1,27 @@
 <?php
-    require 'sessionno.php';
+/**
+ * Archivo: update.php
+ * 
+ * Descripción: Procesa la actualización de datos de un estudiante en la base
+ * de datos. Recibe los datos del formulario de modificación y actualiza el
+ * registro correspondiente. Redirige con mensajes de éxito o error.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Script de procesamiento que actualiza los datos de un estudiante
+ * en la base de datos después de la edición en modificar.php.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
+require 'sessionno.php';
     
     $id = $_POST['id'];
     $cedula = $_POST['cedula'];

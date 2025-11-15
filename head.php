@@ -1,3 +1,27 @@
+<?php
+/**
+ * Archivo: head.php
+ * 
+ * Descripción: Encabezado HTML común para todas las páginas del sistema.
+ * Incluye meta tags, enlaces a hojas de estilo CSS, favicons, y configuración
+ * para Progressive Web App (PWA). Define el título y configuración básica
+ * de la página.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Archivo incluido al inicio de todas las páginas PHP para mantener
+ * consistencia en el encabezado HTML y evitar duplicación de código.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>

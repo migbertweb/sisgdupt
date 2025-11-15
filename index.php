@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: index.php
+ * 
+ * Descripción: Página principal del sistema. Muestra el dashboard después del login,
+ * con acceso a las funcionalidades principales como búsqueda de alumnos y visualización
+ * de pensum de estudio. Requiere autenticación de usuario.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página de inicio del sistema después del login. Proporciona navegación
+ * a las diferentes funcionalidades del sistema de gestión de documentos.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 session_start();
 if (!file_exists("funcs/config.php")) {
     header("Location:instalar/");

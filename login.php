@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: login.php
+ * 
+ * Descripción: Página de inicio de sesión del sistema. Permite a los usuarios
+ * autenticarse mediante usuario y contraseña. Valida credenciales y establece
+ * sesión de usuario con sus permisos correspondientes.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página de acceso al sistema. Los usuarios deben iniciar sesión para
+ * acceder a las funcionalidades del sistema.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionsi.php';
 $errors = array();
 $events = array();

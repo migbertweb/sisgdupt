@@ -1,3 +1,26 @@
+<?php
+/**
+ * Archivo: jscript.php
+ * 
+ * Descripción: Incluye todos los archivos JavaScript necesarios para el
+ * funcionamiento del sistema. Incluye jQuery, Bootstrap, validadores de
+ * formularios, DataTables, Font Awesome y otros complementos.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Archivo incluido al final de todas las páginas PHP para cargar
+ * las librerías JavaScript necesarias y mantener consistencia.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+?>
 <!-- jQuery  -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">

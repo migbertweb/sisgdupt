@@ -1,4 +1,25 @@
 <?php
+/**
+ * Archivo: modificar.php
+ * 
+ * Descripción: Formulario para modificar los datos de un estudiante existente.
+ * Carga los datos del estudiante desde la base de datos y permite editarlos.
+ * Solo accesible para usuarios autenticados.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Interfaz para editar información de estudiantes registrados en el sistema.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 $errors = array();
 $events = array();

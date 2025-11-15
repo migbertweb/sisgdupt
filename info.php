@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: info.php
+ * 
+ * Descripción: Página de información sobre el proyecto. Muestra detalles del
+ * proyecto académico incluyendo tutores, autores y descripción del sistema.
+ * Proporciona información institucional y académica del proyecto.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página informativa accesible desde el menú de ayuda que muestra
+ * información sobre el proyecto y sus desarrolladores.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 // añadir codigo php aqui
 include 'head.php';

@@ -1,3 +1,26 @@
+<?php
+/**
+ * Archivo: carrusel.php
+ * 
+ * Descripción: Componente de carrusel (slider) de imágenes para la página principal.
+ * Muestra imágenes rotativas usando Bootstrap carousel. Incluye controles de navegación
+ * y múltiples slides con imágenes del banner.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Componente incluido en la página principal (index.php) para mostrar
+ * imágenes promocionales o informativas en formato de carrusel.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+?>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

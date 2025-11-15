@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: listarusuarios.php
+ * 
+ * Descripción: Muestra todos los usuarios registrados en el sistema en una
+ * tabla interactiva. Permite a los administradores ver, modificar y eliminar
+ * usuarios. Muestra el tipo de usuario (Administrador o Usuario regular).
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Vista de administración para gestionar los usuarios del sistema.
+ * Accesible desde el menú de perfil de usuario.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 require 'sessionno.php';
 $errors = array();
 $events = array();

@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: nuevo.php
+ * 
+ * Descripción: Formulario para registrar nuevos estudiantes en el sistema.
+ * Permite ingresar información completa del estudiante incluyendo datos personales,
+ * contacto, información étnica, discapacidad, PNF y año de estudio.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Interfaz para el registro de nuevos estudiantes en la base de datos
+ * del sistema de gestión de documentos.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 $errors = array();
 $events = array();

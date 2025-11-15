@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: mostrarbusqueda.php
+ * 
+ * Descripción: Muestra los detalles completos de un estudiante encontrado
+ * en una búsqueda. Permite generar documentos PDF como constancias de modalidad,
+ * constancias de buena conducta y autenticaciones de título.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Página de detalle de estudiante que muestra información y permite
+ * generar documentos académicos en formato PDF.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 $errors = array();
 $events = array();

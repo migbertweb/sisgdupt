@@ -1,4 +1,26 @@
 <?php
+/**
+ * Archivo: autenticacionnotaspdf.php
+ * 
+ * Descripción: Genera un documento PDF de autenticación de título para un estudiante.
+ * Utiliza la librería FPDF para crear un documento oficial que certifica la autenticidad
+ * del título académico del estudiante, incluyendo información del PNF y detalles del programa.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2019
+ * 
+ * Repositorio: https://github.com/migbertweb/sisgdupt
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Genera un PDF de autenticación de título cuando se solicita desde
+ * mostrarbusqueda.php para un estudiante específico.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 include 'sessionno.php';
 // recibimos el ID del Alumno
 $id = $_GET['id'];
